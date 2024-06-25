@@ -20,5 +20,6 @@
 
 a {
   text-decoration: none !important;
-  color: #5c7aba;
+  color: #5c7aba !important;
+  font-size: medium
 }
