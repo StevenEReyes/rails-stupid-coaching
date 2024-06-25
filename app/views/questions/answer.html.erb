@@ -1,0 +1,21 @@
+<div class="container py-3">
+
+  <div class="pb-2">
+    <h3>Stupid Coaching</h3>
+  </div>
+
+  <div class="border-start border-3 border-secondary-subtle ps-3 col-4" id="question">
+    <%= @question %>
+    <p class="fw-light fst-italic">–You</p>
+  </div>
+
+  <div class="border-start border-3 border-secondary-subtle ps-3 mt-4 col-4 pt-2 pb-1" id="answer">
+    <p class="fw-semibold mb-1"><%= @answer %></p>
+    <p class="fw-light fst-italic mb-0">–Your coach</p>
+  </div>
+
+  <p id="id="linkback" class="m-0 pt-4 fw-light">
+    <%= link_to("Ask a new question", ask_path) %>
+  </p>
+
+</div>
